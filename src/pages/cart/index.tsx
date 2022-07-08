@@ -10,8 +10,8 @@ import { OrderAddModel } from "../../models/OrderModel";
 import Shared from "../../utils/shared";
 import { CartContextModel, useCartContext } from "../../context/cart";
 import { useHistory } from "react-router-dom";
-import { BookModel } from "../../models/BookModel";
-import bookService from "../../service/book.service";
+// import { BookModel } from "../../models/BookModel";
+// import bookService from "../../service/book.service";
 
 const Cart: React.FC = () => {
 	const authContext: AuthContextModel = useAuthContext();
